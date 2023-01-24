@@ -1,0 +1,67 @@
+<section id="blog" class="blog-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">Education</h3>
+
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img"></div>
+          <div class="card-body">
+            <div class="card-category-box"></div>
+            <img src="/assets/ASEC.png" alt="" />
+          </div>
+          <div class="card-footer">
+            <div class="post-author">
+              <a href="#">
+                <span class="author">Achievers Special Education Center</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img"></div>
+          <div class="card-body">
+            <div class="card-category-box"></div>
+            <img src="/assets/HAU.png" alt="" width="175px" height="175px" />
+          </div>
+          <div class="card-footer">
+            <div class="post-author">
+              <a href="#">
+                <span [class]="appliedWDClass" class="author"
+                  >Holy Angel University (Highschool)</span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img"></div>
+          <div class="card-body">
+            <img src="/assets/HAU.png" alt="" width="175px" height="175px" />
+          </div>
+          <div class="card-footer">
+            <div class="post-author">
+              <a href="#">
+                <!--Class Binding-->
+                <span [class.false]="notappliedWDClass" class="author"
+                  >Holy Angel University (College)</span
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
